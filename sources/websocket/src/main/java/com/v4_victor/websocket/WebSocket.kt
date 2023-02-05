@@ -72,7 +72,7 @@ class Websocket {
     }
 
     companion object {
-        const val WEB_SOCKET_URL = "wss://ws.finnhub.io?token=c0mmsm748v6tkq136co0"
+        const val WEB_SOCKET_URL = "wss://ws.finnhub.io?token=$token"
         const val TAG = "NICE"
     }
 }
